@@ -1,0 +1,57 @@
+.game-container {
+    border: 3px solid #333;
+    margin: auto;
+    width: fit-content;
+}
+
+#start, #game-over {
+    border: 3px solid #333;
+    font-family: 'Times New Roman', Times, serif;
+    color: #333;
+    padding: 10px;
+    position: fixed;
+    top: 40%;
+    left: 40%;
+    margin-top: -100px;
+    margin-left: -400px;
+    height: 200px;
+    width: 1200px;
+    text-align: center;
+}
+
+#start a, #game-over a {
+    border: 3px solid #333;
+    color: #333;
+    text-decoration: none;
+    padding: 10px;
+    border-radius: 15px;
+    cursor: pointer;
+    display: block;
+    width: 200px;
+    text-align: center;
+    font-size: 2em;
+    display: inline-block;
+    }
+    
+#start a:hover, #game-over a:hover {
+    background-color: #333;
+    color: #333;
+}
+
+#pause {
+    cursor: pointer;
+    border: 3px solid #333;
+    color: #333;
+    border-radius: 10px;
+    width: fit-content;
+    margin: auto;
+    padding: 15px;
+    margin-top: 15px;
+    font-size: 30px;
+    transition: all .2s ease;
+}
+
+#pause:hover {
+    color: white;
+    background-color: #333;
+}

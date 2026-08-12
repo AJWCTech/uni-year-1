@@ -1,0 +1,46 @@
+html {
+  text-size-adjust: 18px;
+  font-family: Arial, Helvetica, sanz-serif;
+  color: #e2e2e2;
+  padding: 5% 5%;
+}
+body {
+  background-color: #29283d;
+}
+h1 {
+  font-size: 3rem;
+  text-decoration: underline;
+  text-transform: uppercase;
+  text-align: center;
+  margin-bottom: 2rem;
+}
+h2{
+  text-size-adjust: 2rem;
+  line-height: 1.3rem;
+  color: #ffea7d;
+}
+h3{
+  size: 1.5rem;
+  line-height: 1.3rem;
+}
+
+p{
+  line-height: 1.5rem;
+}
+
+blockquote {
+  line-height: 1.5rem;
+}
+
+.link {
+  color: 0887f2;
+}
+
+.headingSpacer {
+  margin-top: 3rem;
+}
+
+#author {
+  font-style: italic;
+  text-align: center;
+}

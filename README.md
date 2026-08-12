@@ -21,8 +21,17 @@ Everything here is also presented, with write-ups and context, on my portfolio s
 
 ## Source code
 
-The Web Dev 1 source is included in full, under
-[`Web Dev 1/web-dev-i-ArchyCo/`](Web%20Dev%201/web-dev-i-ArchyCo):
+All first-year source is included in full, recovered from the university
+organisations before that account was closed:
+
+| Path | Contents |
+|---|---|
+| [`Codelab 1/codelab-i-ArchyCo/`](Codelab%201/codelab-i-ArchyCo) | C++ exercises, chapters 0–9 |
+| [`Codelab 1/utility-app-ArchyCo/`](Codelab%201/utility-app-ArchyCo) | The vending machine application (Visual Studio solution) |
+| [`Web Dev 1/web-dev-i-ArchyCo/`](Web%20Dev%201/web-dev-i-ArchyCo) | Set exercises and the web dev project |
+| [`Web Dev 1/web-dev-ArchyCo-CCO4001/`](Web%20Dev%201/web-dev-ArchyCo-CCO4001) | Web Development CCO4001-20: chapters 1–6, project, and marker feedback |
+
+The set exercises are laid out as:
 
 ```
 Web Dev 1/web-dev-i-ArchyCo/assessment-1-set-exercises/
@@ -32,15 +41,12 @@ Web Dev 1/web-dev-i-ArchyCo/assessment-1-set-exercises/
 └── exercise-4-web-accessibility/  4. Web Accessibility
 ```
 
-It was originally submitted to the university-owned
-[`BSU-web-dev/web-dev-i-ArchyCo`](https://github.com/BSU-web-dev/web-dev-i-ArchyCo),
-which remains the original submission record.
-
-Two Codelab 1 projects were submitted to university-owned organisations and I no
-longer hold a copy of the source, so only the documentation is here:
+Original submission records, now inaccessible without a university account:
 
 - [`CodeLab-I-21-22/codelab-i-ArchyCo`](https://github.com/CodeLab-I-21-22/codelab-i-ArchyCo)
 - [`CodeLab-I-21-22/utility-app-ArchyCo`](https://github.com/CodeLab-I-21-22/utility-app-ArchyCo)
+- [`BSU-web-dev/web-dev-i-ArchyCo`](https://github.com/BSU-web-dev/web-dev-i-ArchyCo)
+- [`WebDev-CCO4001-20/web-dev-ArchyCo`](https://github.com/WebDev-CCO4001-20/web-dev-ArchyCo)
 
 ## Not included
 

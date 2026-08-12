@@ -1,0 +1,40 @@
+<!doctype html> <!-- Defines the document type as html -->
+<html>
+<!-- Defines the root of an HTML document -->
+
+<head>
+  <!-- Contains metadata/information for the document -->
+  <meta charset="UTF-8"> <!-- Defines metadata charset as Unicode Transformation Format -->
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <!-- Defines metadata to specify for which version of Internet Explorer the page should be rendered as -->
+  <title>circle.io</title> <!-- Defines a title for the document -->
+  <style src="./style.css"></style>
+  <!-- Defines the relationship between a document and an external resource in this case a stylesheet-->
+  <!-- Tailwind CSS library -->
+  <script src="https://cdn.tailwindcss.com"></script>
+</head>
+
+<body>
+  <!-- Defines the document's body -->
+  <div class="fixed text-white text-sm ml-2 select-none"><span>Score: <span id="ScoreElement">0</span></span></div>
+  <!-- Defines a section in a document with Tailwind CSS class library being used to style the score element -->
+  <div class="fixed inset-0 flex items-center justify-center" id="StartMenu"> <!-- Defines a section in a document with Tailwind CSS class library being used to style the start menu -->
+    <div class="bg-white max-w-md w-full p-6 text-center"> <!-- Defines a section in a document with Tailwind CSS library -->
+      <h1>Click on coloured circles coming towards you to shoot and kill them. Each time you restart the game it gets
+        harder and harder.</h1> <!-- Header for instructions -->
+      <h1 class="text-3xl font-bold leading-none" id="MenuScore">0</h1> <!-- Header for menu score -->
+      <p class="text-sm text-grey-700 mb-4">Points</p> <!-- Paragraph with Tailwind CSS library -->
+      <div><button class="bg-blue-600 text-white w-full py-2 rounded-full" id="StartGame">Start Game</button></div> <!-- Button to start the game styled using Tailwind CSS library-->
+    </div>
+  </div>
+  <!--Defining canvas drawing space -->
+  <canvas></canvas>
+  <!-- GSAP script library for animations -->
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.10.4/gsap.min.js"
+    integrity="sha512-VEBjfxWUOyzl0bAwh4gdLEaQyDYPvLrZql3pw1ifgb6fhEvZl9iDDehwHZ+dsMzA0Jfww8Xt7COSZuJ/slxc4Q=="
+    crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+  <script src="./sketch.js"></script>
+  <!-- Defines the relationship between a document and an external resource in this case JavaScript -->
+</body>
+
+</html>

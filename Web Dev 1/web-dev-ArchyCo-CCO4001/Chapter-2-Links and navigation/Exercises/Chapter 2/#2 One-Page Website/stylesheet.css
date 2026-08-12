@@ -1,0 +1,72 @@
+table {
+    font-family: arial, sans-serif; /* Specifies the font family for text */
+    border-collapse: collapse; /* Sets whether table borders should collapse into a single border or be separated */
+    width: 100%; /* Sets the width of an element */
+  }
+  
+  td, th {
+    border: 1px solid #dddddd; /* A shorthand property for border-width, border-style and border-color */
+    text-align: center; /* Specifies the horizontal alignment of text */
+    padding: 8px; /* A shorthand property for all the padding-* properties */
+  }
+
+  footer {
+    left: -690px; /* Specifies the left position of a positioned element */
+    bottom: 0; /* Sets the elements position, from the bottom of its parent element */
+    width: 270%; /* Sets the width of an element */
+    background-color: #0099ff; /* Specifies the background color of an element */
+    color: white; /* Sets the color of text */
+    text-align: center; /* Specifies the horizontal alignment of text */
+    position: relative; /* Specifies the type of positioning method used for an element (static, relative, absolute or fixed) */
+    padding-top: 15px; /* Sets the top padding of an element */
+    padding-bottom: 15px; /* Sets the bottom padding of an element */
+    margin-top: 30px; /* Sets the top margin of an element */
+  }
+
+  body {
+    font-family: 'Source Sans Pro', sans-serif; /* Specifies the font family for text */
+    font-size: 18px; /* Specifies the font size of text */
+    color: #c5c9cc; /* Sets the color of text */
+    line-height: 1.5; /* Sets the line height */
+    background-color: rgb(36, 35, 35); /* Specifies the background color of an element */
+    -webkit-font-smoothing: antialiased;  /* Controlled font rendering is only valid for MacOS Webkits. */
+    -webkit-text-size-adjust: 100%; /* Controlled font rendering is only valid for MacOS Webkits.  */
+  }
+
+a {
+  color: #99ccff; /*  */
+  -webkit-transition: all 0.3s ease-in-out; /* Controlled font rendering is only valid for MacOS Webkits.  */
+  transition: all 0.3s ease-in-out; /* A shorthand property for all the transition-* properties */
+}
+
+a:hover {
+  color: green; /* Sets the color of text */
+  text-decoration: none; /* Specifies the decoration added to text */
+}
+
+a:focus {
+  outline: 0; /* 	A shorthand property for the outline-width, outline-style, and the outline-color properties */
+  color: green; /* Sets the color of text */
+}
+
+button {
+  white-space: normal; /* Specifies how white-space inside an element is handled */
+  cursor: pointer; /* Specifies the mouse cursor to be displayed when pointing over an element */
+  font-size: 18px; /* Specifies the font size of text */
+  padding: 12px 35px; /* A shorthand property for all the padding-* properties */
+  border-radius: 0; /* A shorthand property for the four border-*-radius properties */ 
+  color: #fff; /* Sets the color of text */ 
+  background-color: #0099ff; /* Specifies the background color of an element */ 
+  border-color: transparent; /* Sets the color of the four borders */
+}
+button:hover {
+  color: #fff; /* Sets the color of text */
+  background-color: #99ccff; /* Specifies the background color of an element */
+  border-color: transparent; /* Sets the color of the four borders */
+  -webkit-box-shadow: none; /* Controlled font rendering is only valid for MacOS Webkits.  */
+  box-shadow: none; /* Attaches one or more shadows to an element */
+}
+
+iframe {
+  border-color: rgb(36, 35, 35); /* Sets the color of the four borders */
+}

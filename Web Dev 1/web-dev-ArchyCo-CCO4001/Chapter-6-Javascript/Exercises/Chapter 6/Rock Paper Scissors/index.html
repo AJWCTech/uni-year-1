@@ -1,0 +1,55 @@
+<!DOCTYPE html> <!-- Defines the document type as html -->
+<html>
+<!-- Defines the root of an HTML document -->
+
+<head>
+  <meta charset="utf-8"> <!-- Defines metadata charset as Unicode Transformation Format -->
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <!-- Defines metadata to specify for which version of Internet Explorer the page should be rendered as -->
+  <title> Rock, Paper & Scissors </title> <!-- Defines a title for the document -->
+  <meta name="description" content="">
+  <!-- Defines metadata name attribute to define a description, keywords, or the author of an HTML document -->
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <!-- Defines metadata viewport to control the page's dimensions and scaling for different devices -->
+  <link rel="stylesheet" href="style.css">
+  <!-- Defines the relationship between a document and an external resource in this case a stylesheet-->
+  <script type="text/javascript" src="http://code.jquery.com/jquery-1.11.0.min.js"></script>
+  <script type="text/javascript" src="http://code.jquery.com/ui/1.10.4/jquery-ui.js"></script>
+  <!-- Defines the relationship between a document and an external resource in this case jQuery javascript files-->
+</head>
+
+<body>
+  <div class="container">
+    <!-- Defines a section in a document in this case container -->
+    <h1>Rock, Paper & Scissors Game</h1> <!-- Defines HTML headings -->
+    <h2>Win ten rounds to be the winner</h2> <!-- Defines HTML headings -->
+    <h2>
+      <!-- Defines HTML headings -->
+      Player <span id="player-score">0</span> - <span id="computer-score">0</span> Computer
+    </h2>
+    <div class="display-moves">
+      <!-- Defines a section in a document in this case display-moves -->
+      <div class="move">
+        <!-- Defines a section in a document in this case move -->
+        <img id="player-move" src="Rock.svg"> <!-- Defines an image -->
+      </div>
+      <div class="separator">VS</div> <!-- Defines a section in a document in this case separtor -->
+      <div class="move">
+        <!-- Defines a section in a document in this case move -->
+        <img id="computer-move" src="Paper.svg"> <!-- Defines an image -->
+      </div>
+    </div>
+    <h2>Click on one of the images below to make your move:<h2>
+        <!-- Defines HTML headings -->
+        <div class="action">
+          <!-- Defines a section in a document in this case action -->
+          <input class="options" type="image" src="Rock.svg" value="Rock" /> <!-- Defines an input control -->
+          <input class="options" type="image" src="Paper.svg" value="Paper" /> <!-- Defines an input control -->
+          <input class="options" type="image" src="Scissors.svg" value="Scissors" /> <!-- Defines an input control -->
+        </div>
+  </div>
+  <script type="text/javascript" src="java.js"></script>
+  <!-- Defines the relationship between a document and an external resource in this case javascript file that calculates the tip-->
+</body>
+
+</html>

@@ -1,0 +1,20 @@
+body {
+    margin: 100px auto; /* 	Sets all the margin properties in one declaration */
+    width: max-content; /* Sets the width of an element */
+  }
+  
+  div#A {
+    box-shadow: 10px 10px 10px red; /* Attaches one or more shadows to an element */
+  }
+  div#B {
+    box-shadow: 10px 10px 10px black inset; /* Attaches one or more shadows to an element */
+  }
+  div#C {
+    border-radius: 18px; /* A shorthand property for the four border-*-radius properties */
+    box-shadow: 0 0 0 10px blue, /* 	Attaches one or more shadows to an element */
+                0 0 0 18px red,
+                0 0 0 28px green;
+  }
+  div#D {
+    text-shadow: 5px 5px grey; /* 	Adds shadow to text */
+  }

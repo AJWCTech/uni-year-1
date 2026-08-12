@@ -1,0 +1,182 @@
+<!DOCTYPE html> <!-- Defines the document type as html -->
+<html>
+<!-- Defines the root of an HTML document -->
+
+<head>
+  <!-- Contains metadata/information for the document -->
+  <meta charset="utf-8"> <!-- Defines metadata charset as Unicode Transformation Format -->
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <!-- Defines metadata to specify for which version of Internet Explorer the page should be rendered as -->
+  <title> Obi-Wan Kenobi </title> <!-- Defines a title for the document -->
+  <meta name="description" content="">
+  <!-- Defines metadata name attribute to define a description, keywords, or the author of an HTML document -->
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <!-- Defines metadata viewport to control the page's dimensions and scaling for different devices -->
+  <link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
+  <link rel="stylesheet" href="stylesheet.css">
+  <!-- Defines the relationship between a document and an external resource in this case a stylesheet-->
+  <script src="https://www.w3schools.com/lib/w3.js"></script>
+  <style>
+    .mySlides {
+      display: none
+    }
+
+    .w3-left,
+    .w3-right,
+    .w3-badge {
+      cursor: pointer
+    }
+
+    .w3-badge {
+      height: 13px;
+      width: 13px;
+      padding: 0
+    }
+  </style>
+</head>
+
+<body>
+  <!-- Defines the document's body -->
+  <script src="" async defer></script> <!-- Defines a client-side script -->
+  <!-- Navigation Bar -->
+  <div class="w3-top"> <!--Defines a section in a document with w3 CSS class -->
+    <div class="w3-bar w3-border w3-blue w3-center"> <!--Defines a section in a document with w3 CSS class -->
+      <a href="#section1" style="width:25%" class="w3-bar-item w3-button w3-border-right w3-mobile">Home</a> <!-- Defines a hyperlink with w3 CSS class -->
+      <a href="#section2" style="width:25%" class="w3-bar-item w3-button w3-border-right w3-mobile">Overview</a> <!-- Defines a hyperlink with w3 CSS class -->
+      <a href="#section3" style="width:25%" class="w3-bar-item w3-button w3-border-right w3-mobile">Cast</a> <!-- Defines a hyperlink with w3 CSS class -->
+      <a href="#section4" style="width:25%" class="w3-bar-item w3-button w3-border-right w3-mobile">Links</a> <!-- Defines a hyperlink with w3 CSS class -->
+    </div>
+  </div>
+  <header class="w3-container"> <!-- Defines a header section in a document with w3 CSS class -->
+    &nbsp;&nbsp; <!-- Non-Breaking Space -->
+  </header>
+
+  <img src="Header.PNG" alt="Star Wars Obi-Wan Kenobi" width="100%" id="section1">
+
+  <div class="w3-container w3-center" id="section2"> <!--Defines a section in a document with w3 CSS class -->
+    <h2> Jedi Master Obi-Wan Kenobi watches over young Luke Skywalker and evades the Empire's elite Jedi hunters during
+      his exile on the desert planet Tatooine. </h2> <!-- Defines HTML headings -->
+    <p>Ewan McGregor returns in the iconic role of Jedi Master Obi-Wan Kenobi for a special event series on Disney+.
+      Officially titled Obi-Wan Kenobi, the series begins 10 years after the dramatic events of “Star Wars: Revenge of
+      the Sith” where he faced his greatest defeat, the downfall and corruption of his best friend and Jedi apprentice,
+      Anakin Skywalker turned evil Sith Lord Darth Vader. The series is directed by Deborah Chow, who helmed memorable
+      episodes of “The Mandalorian,” Season 1, and features the return of Hayden Christensen as Darth Vader.</p> <!-- Defines a paragraph -->
+    <p>Below is a slide show of Posters for the upcomming series.</p> <!-- Defines a paragraph -->
+    &nbsp;
+    <div class="w3-content w3-display-container" style="max-width:800px"> <!--Defines a section in a document with w3 CSS class -->
+      <img class="mySlides" src="Obi-Wan-Kenobi-Poster-01.jpg" style="width:100%;"> <!-- Defines an image with class mySlides -->
+      <img class="mySlides" src="General Kenobi.jpg" style="width:100%"> <!-- Defines an image with class mySlides -->
+      <img class="mySlides" src="Obi-Wan.jpg" style="width:100%"> <!-- Defines an image with class mySlides -->
+      <div class="w3-center w3-container w3-section w3-large w3-text-white w3-display-bottommiddle" style="width:100%"> <!--Defines a section in a document with w3 CSS class -->
+        <div class="w3-left w3-hover-text-khaki" onclick="plusDivs(-1)">&#10094;</div> <!--Defines a section in a document with w3 CSS class -->
+        <div class="w3-right w3-hover-text-khaki" onclick="plusDivs(1)">&#10095;</div> <!--Defines a section in a document with w3 CSS class -->
+        <span class="w3-badge demo w3-border w3-transparent w3-hover-white" onclick="currentDiv(1)"></span> <!--Defines a section in a document with w3 CSS class -->
+        <span class="w3-badge demo w3-border w3-transparent w3-hover-white" onclick="currentDiv(2)"></span> <!--Defines a section in a document with w3 CSS class -->
+        <span class="w3-badge demo w3-border w3-transparent w3-hover-white" onclick="currentDiv(3)"></span> <!--Defines a section in a document with w3 CSS class --> 
+      </div>
+    </div>
+  </div>
+  <!-- Defines a client-side script -->
+  <script>
+    var slideIndex = 1;
+    showDivs(slideIndex);
+
+    function plusDivs(n) {
+      showDivs(slideIndex += n);
+    }
+
+    function currentDiv(n) {
+      showDivs(slideIndex = n);
+    }
+
+    function showDivs(n) {
+      var i;
+      var x = document.getElementsByClassName("mySlides");
+      var dots = document.getElementsByClassName("demo");
+      if (n > x.length) { slideIndex = 1 }
+      if (n < 1) { slideIndex = x.length }
+      for (i = 0; i < x.length; i++) {
+        x[i].style.display = "none";
+      }
+      for (i = 0; i < dots.length; i++) {
+        dots[i].className = dots[i].className.replace(" w3-white", "");
+      }
+      x[slideIndex - 1].style.display = "block";
+      dots[slideIndex - 1].className += " w3-white";
+    }
+  </script>
+  <div class="w3-container w3-center" id="section3"> <!--Defines a section in a document with w3 CSS class -->
+    <div class="w3-content w3-display-container" style="max-width:800px"> <!--Defines a section in a document with w3 CSS class -->
+      &nbsp; <!-- Non-Breaking Space -->
+      <h1>&nbsp;Cast of Obi-Wan Kenobi&nbsp;</h1>
+      &nbsp; <!-- Non-Breaking Space -->
+      <table> <!-- Defines a table -->
+        <tr> <!--	Defines a row in a table -->
+          <th>Name</th> <!-- Defines a header cell in a table -->
+          <th>Role</th> <!-- Defines a header cell in a table -->
+          <th>Episodes</th> <!-- Defines a header cell in a table -->
+        </tr>
+        <tr> <!--	Defines a row in a table -->
+          <td>Ewan McGregor</td> <!-- 	Defines a cell in a table -->
+          <td>as Obi-Wan Kenobi</td> <!-- 	Defines a cell in a table -->
+          <td>6</td> <!-- 	Defines a cell in a table -->
+        </tr>
+        <tr> <!--	Defines a row in a table -->
+          <td>Hayden Christensen</td> <!-- 	Defines a cell in a table -->
+          <td>as Darth Vader</td> <!-- 	Defines a cell in a table -->
+          <td>6</td> <!-- 	Defines a cell in a table -->
+        </tr>
+        <tr> <!--	Defines a row in a table -->
+          <td>Rupert Friend</td> <!-- 	Defines a cell in a table -->
+          <td>as Grand Inquisitor</td> <!-- 	Defines a cell in a table -->
+          <td>6</td> <!-- 	Defines a cell in a table -->
+        </tr>
+        <tr> <!--	Defines a row in a table -->
+          <td>Joel Edgerton</td> <!-- 	Defines a cell in a table -->
+          <td>as Owen Lars</td> <!-- 	Defines a cell in a table -->
+          <td>6</td> <!-- 	Defines a cell in a table -->
+        </tr>
+        <tr> <!--	Defines a row in a table -->
+          <td>Bonnie Piesse</td> <!-- 	Defines a cell in a table -->
+          <td>as Beru Lars</td> <!-- 	Defines a cell in a table -->
+          <td>6</td> <!-- 	Defines a cell in a table -->
+        </tr>
+        <tr> <!--	Defines a row in a table -->
+          <td>Grant Freely</td> <!-- 	Defines a cell in a table -->
+          <td>as Luke Skywalker</td> <!-- 	Defines a cell in a table -->
+          <td>1</td> <!-- 	Defines a cell in a table --> 
+        </tr>
+      </table>
+    </div>
+  </div>
+  &nbsp; <!-- Non-Breaking Space -->
+  <div class="w3-container w3-center" id="section4"> <!--Defines a section in a document with w3 CSS class -->
+    <div class="w3-content w3-display-container" style="max-width:800px"> <!--Defines a section in a document with w3 CSS class -->
+      <form action="https://disneyplusoriginals.disney.com/show/obi-wan-kenobi" method="get" target="_blank"> <!-- 	Defines an HTML form for user input -->
+        <button type="submit">Link to Disney+</button> <!-- Defines a clickable button -->
+      </form>
+      &nbsp; <!-- Non-Breaking Space -->
+      <form action="https://www.imdb.com/title/tt8466564/" method="get" target="_blank"> <!-- 	Defines an HTML form for user input -->
+        <button type="submit">Link to IMDb</button> <!-- Defines a clickable button -->
+        &nbsp; <!-- Non-Breaking Space -->
+      </form>
+      &nbsp; <!-- Non-Breaking Space -->
+      <form action="https://www.starwars.com/databank/obi-wan-kenobi" method="get" target="_blank"> <!-- 	Defines an HTML form for user input -->
+        <button type="submit">Link to Starwars</button> <!-- Defines a clickable button -->
+        &nbsp; <!-- Non-Breaking Space -->
+    </div>
+  </div>
+  &nbsp; <!-- Non-Breaking Space -->
+  <div class="w3-container"> <!--Defines a section in a document with w3 CSS class -->
+    <div class="w3-content w3-display-container" style="max-width:800px"> <!--Defines a section in a document with w3 CSS class -->
+      &nbsp; <!-- Non-Breaking Space -->
+      <iframe width="800" height="550" src="https://www.youtube.com/embed/TWTfhyvzTx0?autoplay=1&controls=1"></iframe> <!-- 	Defines an inline frame -->
+      &nbsp; <!-- Non-Breaking Space -->
+</body>
+&nbsp; <!-- Non-Breaking Space -->
+<footer> <!-- Defines a footer for a document or section -->
+  <p>Author: Archie</p>
+  <p><a href="mailto:archie.cook21@bathspa.ac.uk">archie.cook21@bathspa.ac.uk</a></p>
+</footer>
+
+</html>

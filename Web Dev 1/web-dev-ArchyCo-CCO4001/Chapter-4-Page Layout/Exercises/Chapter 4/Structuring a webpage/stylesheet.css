@@ -1,0 +1,50 @@
+
+  footer {
+    left: 0px; /* Specifies the left position of a positioned element */
+    bottom: 0; /* Sets the elements position, from the bottom of its parent element */
+    width: 100%; /* Sets the width of an element */
+    background-color: #8c15e9; /* Specifies the background color of an element */
+    color: white; /* Sets the color of text */
+    text-align: center; /* Specifies the horizontal alignment of text */
+    position: fixed; /* Specifies the type of positioning method used for an element (static, relative, absolute or fixed) */
+    margin-top: 15px; /* Sets the top margin of an element */
+  }
+
+  body {
+    font-family: "Arial", 400; /* Specifies the font family for text */
+    font-size: 18px; /* Specifies the font size of text */
+    color: #000000; /* Sets the color of text */
+    line-height: 1.5; /* Sets the line height */ /* Specifies the background color of an element */
+    -webkit-font-smoothing: antialiased;  /* Controlled font rendering is only valid for MacOS Webkits. */
+    -webkit-text-size-adjust: 100%; /* Controlled font rendering is only valid for MacOS Webkits.  */
+  }
+
+  h2 {
+    text-decoration: underline;
+    font-weight: bold;
+  }
+
+  aside {
+    display: inline-block;
+    background-color: #172d67;
+    width: 700px;
+    padding: 60px;
+    padding-bottom: 210px;
+    margin-top: 40px; /* Sets the top margin of an element */
+  }
+
+  .w3-left {
+    width: 1300px;
+  }
+
+  .w3-right {
+    width: 500px;
+  }
+
+  header {
+    background-color: #17072b;
+    color: #FFF;
+    font-family: "Tahoma", 700;
+    font-weight: bold;
+    text-decoration: underline;
+  }

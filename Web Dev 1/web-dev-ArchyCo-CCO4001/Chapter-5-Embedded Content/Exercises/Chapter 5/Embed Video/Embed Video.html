@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="utf-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <title></title>
+        <meta name="description" content="">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <link rel="stylesheet" href="">
+    </head>
+    <body>
+        <div style="text-align:center">
+        <img src="biglez.webp" alt="Big Lez" width="600"></div>
+        <div style="text-align:center"> 
+            <button onclick="playPause()">Play/Pause</button> 
+            <button onclick="makeBig()">Big</button>
+            <button onclick="makeSmall()">Small</button>
+            <button onclick="makeNormal()">Normal</button>
+            <br><br>
+            <video controls loop id="video1" width="1400">
+              <source src="THE BIG LEZ SHOW  S03 EP01  SKITS ROOF HANGS.mp4" type="video/mp4">
+              <source src="THE BIG LEZ SHOW  S03 EP01  SKITS ROOF HANGS.mp4" type="video/ogg">
+              Your browser does not support HTML video.
+            </video>
+            <p>Video courtesy of <a href="https://www.youtube.com/c/THEBIGLEZSHOWOFFICIAL" target="_blank">Big Lez Show by Jarrad Wright</a>.</p>
+          </div> 
+          
+          <script> 
+          var myVideo = document.getElementById("video1"); 
+          
+          function playPause() { 
+            if (myVideo.paused) 
+              myVideo.play(); 
+            else 
+              myVideo.pause(); 
+          } 
+          
+          function makeBig() { 
+              myVideo.width = 1800; 
+          } 
+          
+          function makeSmall() { 
+              myVideo.width = 1000; 
+          } 
+          
+          function makeNormal() { 
+              myVideo.width = 1400; 
+          } 
+          </script> 
+    </body>
+</html>

@@ -1,0 +1,38 @@
+img {
+    max-width: 100%; /* Sets the maximum width of an element */
+    height: auto; /* Sets the height of an element */
+    border-radius: 50%; /* A shorthand property for the four border-*-radius properties */
+    opacity: 0.8; /* Sets the opacity level for an element */
+  }
+
+  img:hover {
+    box-shadow: 0 0 10px 5px rgba(0, 140, 186, 0.5); /* 	Attaches one or more shadows to an element  */
+  }
+  a:link, a:visited {
+    align-content: center; /* Specifies the alignment between the lines inside a flexible container when the items do not use all available space */
+    background-color: blue; /* Specifies the background color of an element */
+    color: white; /* Sets the color of text */
+    padding: 14px 25px; /* A shorthand property for all the padding-* properties */
+    text-align: center; /* 	Specifies the horizontal alignment of text */
+    text-decoration: none; /* Specifies the decoration added to text */
+    display: inline-block; /* Specifies how a certain HTML element should be displayed */
+  }
+  
+  a:hover, a:active {
+    background-color: blueviolet; /* Specifies the background color of an element */
+  }
+
+  table {
+    font-family: arial, sans-serif; /* Specifies the font family for text */
+    border-collapse: collapse; /* Sets whether table borders should collapse into a single border or be separated */
+    width: 100%; /* Sets the width of an element */
+  }
+  
+  td, th {
+    border: 1px solid #dddddd; /* 	A shorthand property for border-width, border-style and border-color  */
+    text-align: center; /* Specifies the horizontal alignment of text */ 
+    padding: 8px; /* A shorthand property for all the padding-* properties */
+  }
+  button:hover, button:active {
+    background-color: blueviolet; /* Specifies the background color of an element */
+  }

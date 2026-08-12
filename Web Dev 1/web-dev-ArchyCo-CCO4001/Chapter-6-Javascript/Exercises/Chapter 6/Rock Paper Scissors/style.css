@@ -1,0 +1,58 @@
+body {
+    text-align: center; /* Specifies the horizontal alignment of text */
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif; /* Specifies the font family for text */
+  }
+  .container {
+      margin: 0 auto; /* Sets all the margin properties in one declaration */
+      background-color: lightblue; /* Specifies the background color of an element */
+      border-radius: 20px; /* A shorthand property for the four border-*-radius properties */
+      padding: 25px 50px; /* A shorthand property for all the padding-* properties */
+      width: 1000px; /* Sets the width of an element */
+  }
+  .action {
+    max-width: 800px; /* Sets the maximum width of an element */
+    padding: 40px 0; /* A shorthand property for all the padding-* properties */
+    margin: 0 auto; /* Sets all the margin properties in one declaration */
+    background-color: blueviolet; /* Specifies the background color of an element */
+    display: flex; /* Specifies how a certain HTML element should be displayed */
+    flex-wrap: wrap; /* Specifies whether the flexible items should wrap or not */
+    align-items: center; /* Specifies the alignment for items inside a flexible container */
+    justify-content: space-evenly; /* 	Specifies the alignment between the items inside a flexible container when the items do not use all available space */
+    border-radius: 20px; /* A shorthand property for the four border-*-radius properties */
+  }
+
+  .display-moves {
+    display: flex; /* Specifies how a certain HTML element should be displayed  */
+    flex-wrap: wrap; /* Specifies whether the flexible items should wrap or not */
+    align-items: center; /* Specifies the alignment for items inside a flexible container */
+    justify-content: space-evenly; /* 	Specifies the alignment between the items inside a flexible container when the items do not use all available space */
+  }
+  .options {
+    animation-name: anim-fade; /* Specifies a name for the @keyframes animation */
+    animation-duration: 2s; /* 	Specifies how long an animation should take to complete one cycle */
+    animation-fill-mode: forwards; /* Specifies a style for the element when the animation is not playing (before it starts, after it ends, or both) */
+    width: 100%; /* Sets the width of an element */
+    max-width: 120px; /* Sets the maximum width of an element */
+    flex: 1 1 50%; /* A shorthand property for the flex-grow, flex-shrink, and the flex-basis properties */
+    border-radius: 50%; /* A shorthand property for the four border-*-radius properties */
+    border-width: 4px; /* Sets the width of the four borders */
+    border-style: solid; /* Sets the style of the four borders */
+    border-color: rgba(3, 3, 3, 0.7); /* Sets the color of the four borders */
+    padding: 10px; /* A shorthand property for all the padding-* properties */
+  }
+  .move {
+    border-radius: 50%; /* A shorthand property for the four border-*-radius properties */
+    border-width: 4px; /* Sets the width of the four borders */
+    border-style: solid; /* Sets the style of the four borders */
+    border-color: rgba(3, 3, 3, 0.7); /* Sets the color of the four borders */
+  }
+  .separator {
+    font-size: 5em; /* Specifies the font size of text */
+  }
+
+  img[id=player-move]{ 
+      width: 30%; /* Sets the width of an element */
+  }
+  img[id=computer-move]{
+    width: 30%; /* Sets the width of an element */
+}

@@ -1,0 +1,63 @@
+body {
+    text-align: center; /* Specifies the horizontal alignment of text */
+    background-color: honeydew; /* Specifies the background color of an element */
+}
+
+h1{
+    text-decoration: underline; /* Specifies the decoration added to text */
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif; /* Specifies the font family for text */
+}
+
+p {
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif; /* Specifies the font family for text */
+    font-size: large; /* Specifies the font size of text */
+}
+
+input[id=amount] {
+    border: 3px solid; /* A shorthand property for border-width, border-style and border-color */
+    width: 100px; /* Sets the width of an element */
+} 
+
+input[id=amount]:focus {
+    border: 3px solid #555; /* A shorthand property for border-width, border-style and border-color */
+    background-color: lightblue; /**/
+    width: 100px; /* Sets the width of an element */
+  }
+  input[id=percentage] {
+    border: 3px solid; /* A shorthand property for border-width, border-style and border-color */
+    width: 30px; /* Sets the width of an element */
+} 
+
+input[id=percentage]:focus {
+    border: 3px solid #555; /* A shorthand property for border-width, border-style and border-color */
+    background-color: lightblue; /* Specifies the background color of an element */
+    width: 30px; /* Sets the width of an element */
+  }
+
+input[id=tip]{
+    width:100px; /* Sets the width of an element */
+    border: 3px solid #555; /* A shorthand property for border-width, border-style and border-color */
+}
+input[id=total]{
+    width:100px; /* Sets the width of an element */
+    border: 3px solid #555; /* A shorthand property for border-width, border-style and border-color */
+}
+
+input[type=submit] {
+    background-color: #04AA6D; /* Specifies the background color of an element */
+    border: 3px solid green; /* A shorthand property for border-width, border-style and border-color */
+    color: white; /* Sets the color of text */
+    padding: 16px 32px; /* A shorthand property for all the padding-* properties */
+    text-decoration: none; /* Specifies the decoration added to text */
+    margin: 4px 2px; /* Sets all the margin properties in one declaration */
+    cursor: pointer; /* Specifies the mouse cursor to be displayed when pointing over an element */
+}
+
+input[type=submit]:hover { 
+    background-color: #0a4731; /* Specifies the background color of an element */
+    border: 3px solid darkgreen; /* A shorthand property for border-width, border-style and border-color */
+    padding: 16px 32px; /* A shorthand property for all the padding-* properties */
+    text-decoration: none; /* Specifies the decoration added to text */
+    margin: 4px 2px; /* Sets all the margin properties in one declaration */
+    cursor: pointer; /* Specifies the mouse cursor to be displayed when pointing over an element */
+}

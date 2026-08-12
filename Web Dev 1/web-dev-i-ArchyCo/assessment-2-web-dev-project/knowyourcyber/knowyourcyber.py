@@ -6,7 +6,7 @@ def knowyourcyberDb (): # (Codemy.com, 2021)
     dbconnect = mysql.connector.connect( # Using dbconnect variable to call mysqlconnector driver (w3schools, 2019)
         host="localhost",
         user="Archie",
-        password="DB_PASSWORD",
+        password="ArchieCook123123",
         database="knowyourcyber"
     )
     return dbconnect # Return the results of dbconnect
