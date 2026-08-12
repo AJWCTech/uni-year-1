@@ -19,25 +19,36 @@ Everything here is also presented, with write-ups and context, on my portfolio s
 | **Intro to Computing** | Research paper |
 | **Web Dev 1** | Development project documentation |
 
-## A note on the source code
+## Source code
 
-The programming work for these modules was submitted to university-owned GitHub
-organisations, and those repositories remain the canonical source:
+The Web Dev 1 source is included in full, under
+[`Web Dev 1/web-dev-i-ArchyCo/`](Web%20Dev%201/web-dev-i-ArchyCo):
+
+```
+Web Dev 1/web-dev-i-ArchyCo/assessment-1-set-exercises/
+├── exercise-1-semantic-markup/    1. Semantic Markup
+├── exercise-2-css-styling/        2. CSS styling
+├── exercise-3-rich-media/         3. Rich Media
+└── exercise-4-web-accessibility/  4. Web Accessibility
+```
+
+It was originally submitted to the university-owned
+[`BSU-web-dev/web-dev-i-ArchyCo`](https://github.com/BSU-web-dev/web-dev-i-ArchyCo),
+which remains the original submission record.
+
+Two Codelab 1 projects were submitted to university-owned organisations and I no
+longer hold a copy of the source, so only the documentation is here:
 
 - [`CodeLab-I-21-22/codelab-i-ArchyCo`](https://github.com/CodeLab-I-21-22/codelab-i-ArchyCo)
 - [`CodeLab-I-21-22/utility-app-ArchyCo`](https://github.com/CodeLab-I-21-22/utility-app-ArchyCo)
-- [`BSU-web-dev/web-dev-i-ArchyCo`](https://github.com/BSU-web-dev/web-dev-i-ArchyCo)
-
-This repository holds the accompanying reports, documentation and media.
 
 ## Not included
 
-Two files were left out because they exceed GitHub's file-size limits:
+One file was left out because it exceeds GitHub's file-size limits:
 
 - `Web Dev 1/Desktop 2024.05.30 - 14.48.33.03.mp4` (412 MB) — project walkthrough recording
-- `Codelab 1/web-dev-i-ArchyCo-main.zip` (72 MB) — archive of the linked Web Dev 1 repository above
 
-Both are available on request, and the walkthrough video is viewable on my portfolio site.
+It is available on request, and viewable on my portfolio site.
 
 ---
 

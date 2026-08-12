@@ -1,0 +1,8 @@
+{% extends "index.html" %} <!-- This means that the current template inherits the structure of index.html (GeeksforGeeks, 2021b) -->
+{%block content%} <!-- This means the content placed here will replace the extended index.html block template (GeeksforGeeks, 2021b) -->
+<section>
+    <h2>About Know Your Cyber</h2>
+    <p>Meet the Team</p>
+    <img src="{{ url_for('static', filename='pexels-photo-5380651.webp') }}" alt="Image of coder" width="100%"> <!-- Link links to the jpg image in the static folder the URL for the image is dynamically generated using Flask's url_for() function -->
+</section>
+{%endblock%} <!-- This is Jinja2 template syntax used to define a block called content and then endblock is used to define boundries of blocks in Jinja2 templates, makes content reuse and custom template inheritance and block nesting easier (Flask, 2010b) -->

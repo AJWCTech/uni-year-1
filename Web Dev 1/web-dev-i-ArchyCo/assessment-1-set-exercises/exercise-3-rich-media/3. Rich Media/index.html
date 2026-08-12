@@ -1,0 +1,59 @@
+<!DOCTYPE html> <!-- Document type declaration as HTML -->
+<html lang="en"> <!-- Declaring the language as english for the HTML document -->
+
+<head> <!-- Head element to contain elements such as Title, link and meta -->
+    <meta charset="UTF-8">
+    <!-- Meta tag defines metadata in this case it specifies the charset (character encoding) for the HTML document -->
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!-- Meta tag defines metadata and in this case it sets the viewport so it fits on all devices -->
+    <title>J's Gallery</title> <!-- Title sets the title of the page in browser -->
+    <link rel="stylesheet" href="styles.css"> <!-- Link links to the CSS stylesheet -->
+</head>
+
+<body> <!-- Defines the HTML body to contain headings, footers, navs, paragraphs, sections and lists etc -->
+    <h1>J's Gallery</h1> <!-- h1-h6 tags are used to define HTML headings values can be customised using CSS -->
+    <section> <!-- Section tag defines a section in the HTML document -->
+        <audio controls> <!-- Defines audio element is used to play a audio file -->
+            <source src="assets/dream-culture.mp3" type="audio/mpeg"> <!-- Defines media sources for video or audio -->
+        </audio>
+    </section>
+    <section> <!-- Section tag defines a section in the HTML document -->
+        <video width="1000" height="700" controls>
+            <!-- Defines video element used to play video files with the width of 1000 and height of 700 and controls enabled -->
+            <source src="assets/leaves.mp4" type="video/mp4">
+        </video> <!-- Defines media sources for video or audio -->
+    </section>
+    <section> <!-- Section tag defines a section in the HTML document -->
+        <div id="images">
+            <!-- Defines a div with the id images so it can be used for CSS styling and style the images so they are next to each other in a 1x4 -->
+            <img src="assets/1.jpg" width="100%" alt="img1"></img> <!-- Defines embeded image and file path to img1 -->
+            <img src="assets/2.jpg" width="100%" alt="img2"></img> <!-- Defines embeded image and file path to img2 -->
+            <img src="assets/3.jpg" width="100%" alt="img3"></img> <!-- Defines embeded image and file path to img3 -->
+            <img src="assets/4.jpg" width="100%" alt="img4"></img> <!-- Defines embeded image and file path to img4 -->
+        </div>
+    </section>
+    <footer> <!-- Footer tag defines the footer of the document -->
+        <h2>Attribution</h2> <!-- h1-h6 tags are used to define HTML headings values can be customised using CSS -->
+        <ul> <!-- Nav tag defines a set of navigation links and ul tag defines an unordered list-->
+            <li> <!-- li tag defines list items -->
+                <p>Video by <a
+                        href="https://pixabay.com/users/caromaria-37915556/?utm_source=link-attribution&utm_medium=referral&utm_campaign=video&utm_content=188021">Carola
+                        Maria Bischof </a> from <a href="https://pixabay.com//">Pixabay</a></p>
+            </li>
+            <li> <!-- li tag defines list items -->
+                <p>Images from <a href="https://pixabay.com//">Pixabay </a><a
+                        href="https://pixabay.com/photos/skater-skateboarder-skatepark-4618922/">Img 1 </a><a
+                        href="https://pixabay.com/photos/miniature-skateboarding-skateboarder-3365503/">Img 2 </a><a
+                        href="https://pixabay.com/photos/nissan-sx-drift-car-race-fast-848896/">Img 3 </a><a
+                        href="https://pixabay.com/photos/run-automobile-rally-gravel-drift-3207399/">Img 4</a></p>
+            </li>
+            <li> <!-- li tag defines list items -->
+                <p>"Dream Culture" Kevin MacLeod (incompetech.com) Licensed under <a
+                        href="https://creativecommons.org/licenses/by/4.0/">Creative Commons: By Attribution 4.0
+                        License</a></p>
+            </li>
+        </ul>
+    </footer>
+</body>
+
+</html>

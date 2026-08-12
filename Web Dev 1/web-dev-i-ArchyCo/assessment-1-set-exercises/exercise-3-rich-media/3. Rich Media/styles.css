@@ -1,0 +1,18 @@
+body {
+    font-family: Arial, Helvetica, sans-serif;
+    /* Setting font-family to Arial sans-serif*/
+}
+
+#images {
+    display: flex;
+    /* Setting display to flex */
+    flex-wrap: wrap;
+    /* Setting flex-wrap to wrap so all images fit in a row of 4 */
+}
+
+#images img {
+    width: 25%;
+    /* Setting width to 25% so all images fit in a row of 4 */
+    min-width: 100px;
+    /* Setting min-width to 100px so all images fit in a row of 4 */
+}

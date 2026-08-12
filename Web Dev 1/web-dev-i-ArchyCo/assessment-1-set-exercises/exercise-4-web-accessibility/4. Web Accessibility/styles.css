@@ -1,0 +1,129 @@
+body {
+    font-family: Arial, sans-serif;
+    /* Setting font-family to Arial sans-serif */
+    line-height: 1.6;
+    /* Setting line-height to 1.6 */
+    background-color: #ffe6f3;
+    /* Setting the background colour to the same as target images using powertools */
+    margin: 0;
+    /* Setting margin to 0 */
+    padding: 0;
+    /* Setting padding to 0 */
+}
+
+section,
+header,
+footer {
+    background-color: #ffffff;
+    /* Setting the background colour to the same as target images using powertools */
+    padding: 20px;
+    /* Setting padding to 20px */
+    margin: 20px auto;
+    /* Setting margin to 20px auto */
+    max-width: 800px;
+    /* Setting max width to 800px */
+    border-radius: 10px;
+    /* Setting border-radius to 10px so all sides are rounded */
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    /* Setting box shadow to 0 horizontal offset, 4px verttical offset, 8px blur radius, no colour 0.1 opacity */
+    align-items: center;
+    /* Setting align-items to center*/
+}
+
+.dividerlogo {
+    width: 800px;
+    /* Setting width to 800px */
+}
+
+nav ul {
+    list-style-type: none;
+    /* Setting list-style-type to none so there is no underlining or bullet points */
+    padding-left: 30px;
+    /* Setting padding to 30px */
+    margin-left: 230px;
+    /* Setting margin-left to 230px to center the nav */
+    display: flex;
+    /* Setting display to flex */
+    justify-content: space-between;
+    /* Setting justify-content to space-between so it has gaps between list items */
+}
+
+nav li {
+    margin: 0px 300px 0px 20px;
+    /* Setting margin to 0, 300px, 0, 20px */
+    padding: 10px;
+    /* Setting padding to 10px */
+    padding-bottom: 0px;
+    /* Setting padding-bottom to 0px */
+    font-size: 22px;
+    /* Setting the font size to 22px as a rough guess to what the target image uses */
+}
+
+nav a {
+    text-decoration: none;
+    /* Setting text-decoration to none */
+    color: #333;
+    /* Setting colour to dark grey */
+}
+
+nav a:hover {
+    color: #555;
+    /* Setting colour to grey on hover */
+}
+
+#images img {
+    width: 100%;
+    /* Setting width to 100% */
+    height: auto;
+    /* Setting height to auto */
+    margin-bottom: 20px;
+    /* Setting margin-bottom to 20px */
+    border-radius: 10px;
+    /* Setting border-radius to 10px */
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    /* Setting box shadow to 0 horizontal offset, 4px verttical offset, 8px blur radius, no colour 0.1 opacity */
+}
+
+#images p {
+    text-align: center;
+    /* Setting text-align to center */
+    font-size: 24px;
+    /* Setting font-size to 24px as it is easily readable */
+}
+
+button {
+    background-color: #333;
+    /* Setting background colour to dark grey as it stands out */
+    color: white;
+    /* Setting colour of text to white so it contrasts the grey and is easy to read */
+    border: none;
+    /* Setting border to none */
+    padding: 10px 20px;
+    /* Setting padding to 10px and 20px */
+    cursor: pointer;
+    /* Setting cursor to pointer which indicates a link*/
+    font-size: 1rem;
+    /* Setting font size to 1rem as it is easy to read*/
+    align-items: center;
+    /* Setting align-items to center */
+    margin: 20px;
+    /* Setting margin to 20px */
+    border-radius: 10px;
+    /* Setting border-radius to 10px so all sides are rounded */
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    /* Setting box shadow to 0 horizontal offset, 4px verttical offset, 8px blur radius, no colour 0.1 opacity */
+    text-align: center;
+    /* Setting text-align to center */
+    margin-left: 330px;
+    /* Setting margin-left to 330px so the button is center aligned */
+}
+
+button:hover {
+    background-color: #555;
+    /* Setting background colour to grey when hovering on button */
+}
+
+footer {
+    text-align: center;
+    /* Setting text-align to center */
+}

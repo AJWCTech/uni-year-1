@@ -1,0 +1,128 @@
+/* General reset */
+* {
+    margin: 0; /* Setting margin to 0 */
+    padding: 0; /* Setting padding to 0 */
+    box-sizing: border-box; /* Setting box-sizing to border-box */
+}
+
+/* Body styling */
+body {
+    font-family: Arial, sans-serif; /* Setting font for body to Arial sans-serif */
+    background-color: #2c3e50; /* Setting the background colour to navy blue */
+    color: #ecf0f1; /* Setting the font colour to very white azure */
+    display: flex; /* Setting display to flex */
+    flex-direction: column; /* Setting the flex direction to column */
+    align-items: center; /* Setting align items to center */
+    text-align: center; /* Setting textt align to center */
+    min-height: 100vh; /* Setting min height to 100vh */
+}
+
+/* Main container styling */
+main {
+    width: 90%; /* Setting width to 90% */
+    max-width: 800px; /* Setting max width to 800px */
+    margin-top: 120px; /* Space for the fixed header */
+    padding: 20px; /* Setting padding to 20px */
+    background-color: #34495e; /* Setting background colour to navy blue*/
+    border-radius: 10px; /* Setting border radius to 10px */
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2); /* Setting box shadow to 0 horizontal offset, 4px verttical offset, 8px blur radius, no colour 0.2 opacity */
+}
+
+/* Header styling */
+header {
+    background-color: #1abc9c; /* Setting background colour to an intense green colour */
+    width: 100%; /* Setting width to 100% */
+    padding: 20px; /* Setting padding to 20px */
+    position: fixed; /* Setting position to fixed */
+    top: 0; /* Setting top to 0 */
+    left: 0; /* Setting left to 0 */
+    display: flex; /* Setting display to flex */
+    justify-content: space-between; /* Setting justify content to space-between */
+    align-items: center; /* Setting align items to center */
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2); /* Setting box shadow to 0 horizontal offset, 4px verttical offset, 8px blur radius, no colour 0.2 opacity */
+}
+
+header h1 {
+    margin: 0; /* Setting margin to 0 */
+    font-size: 2em; /* Setting font-size to 2em */
+}
+
+/* Navigation styling */
+nav {
+    display: flex; /* Setting display to flex */
+    justify-content: space-between; /* Setting justify content to space between */
+    gap: 20px; /* Setting gap to 20px */
+}
+
+nav a {
+    color: #ecf0f1; /* Setting the font colour to very white azure */
+    text-decoration: none; /* Setting text decoration to none */
+    margin: 0 10px; /* Setting margin */
+    font-size: 1.2em; /* Setting font size to 1.2em */
+}
+
+nav a:hover {
+    color: #e74c3c; /* Setting color of text for nav when hovered over */
+}
+
+/* Section styling */
+section {
+    margin: 20px 0; /* Setting margin */
+}
+
+section h1, section h2 {
+    margin-bottom: 20px; /* Setting margin bottom to 20px */
+}
+
+section p {
+    margin-bottom: 20px; /* Setting margin bottom to 20ox */
+    line-height: 1.6; /* Setting line height to 1.6 */
+}
+
+/* Table styling */
+table {
+    width: 100%; /* Setting width to 100% */
+    border-collapse: collapse; /* Setting border collapse to collapse */
+    margin-bottom: 20px; /* Setting margin bottom to 20px */
+    background-color: #ecf0f1; /* Setting background colour to a very white azure */
+    border-radius: 10px; /* Setting border radius to 10px */
+    overflow: hidden; /* Setting overflow to hidden */
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2); /* Setting box shadow to 0 horizontal offset, 4px verttical offset, 8px blur radius, no colour 0.2 opacity */
+    text-align: left; /* Setting text align to left */
+}
+
+table thead {
+    background-color: #1abc9c; /* Setting the background colour to an intense green color */
+    color: #ecf0f1; /* Setting the text colour of the headings to a very white azure */
+}
+
+table th, table td {
+    padding: 12px 15px; /* Setting the padding to 12px and 15px */
+}
+
+table tbody tr:nth-child(even) {
+    background-color: #bdc3c7; /* Setting the background colour to a grey for every even number of the table body */
+    color: #000; /* Setting the text colour to black */
+}
+
+table tbody tr:nth-child(odd) {
+    background-color: #ecf0f1; /* Setting the background colour to a very white azure for every odd number of the table body */
+    color: #000;  /* Setting the text colour to black */
+}
+
+table tbody tr:hover {
+    background-color: #1abc9c; /* Setting the hover background colour to an intense green colour */
+    color: #fff; /* Setting the text colour to white */
+}
+
+/* Image styling */
+img {
+    max-width: 100%; /* Setting max-width to 100% */
+    height: auto; /* Setting height to auto */
+    border-radius: 10px; /* Setting borcer radius to 10px */
+}
+
+/* About page image styling */
+section img {
+    margin-top: 20px; /* Setting margin top to 20px */
+}

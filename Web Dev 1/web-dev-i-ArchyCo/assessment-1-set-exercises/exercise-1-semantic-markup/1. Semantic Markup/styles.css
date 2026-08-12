@@ -1,0 +1,44 @@
+header {
+    /* Setting the background colour to the same as target images using powertools */
+    background-color: #dddddd;
+    /* Setting margin to 0 */
+    margin: 0;
+    /* Setting padding to 10px */
+    padding: 10px;
+}
+header h1 {
+    /* Setting margin left to 20px */
+    margin-left: 20px;
+}
+nav ul {
+    /* Setting list-style-type to none*/
+    list-style-type: none;
+}
+nav ul li {
+    /* Setting display to inline-block */
+    display: inline-block;
+    /* Setting padding to 0px */
+    padding: 0px;
+}
+
+#bg {
+    /* Setting the background colour to the same as target images using powertools */
+    background-color: #dddddd;
+    /* Setting padding to 10px */
+    padding: 10px;
+}
+#bg p {
+    /* Setting margin-left to 20px */
+    margin-left: 20px;
+}
+
+footer {
+    /* Setting the background colour to the same as target images using powertools */
+    background-color: #dddddd;
+    /* Setting padding to 10px */
+    padding: 10px;
+}
+footer p {
+    /* Setting margin-left to 20px */
+    margin-left: 20px;
+}

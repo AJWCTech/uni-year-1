@@ -1,0 +1,30 @@
+{% extends 'index.html' %} <!-- This means that the current template inherits the structure of index.html (GeeksforGeeks, 2021b) -->
+
+{% block content %} <!-- This means the content placed here will replace the extended index.html block template (GeeksforGeeks, 2021b) -->
+<section>
+    <!-- This section shows a table of cyber threats, each row iterates over the list of threats dynamically populating the table with the results (stackoverflow, 2019) -->
+    <h2>Know Your Cyber Database</h2>
+    <table>
+        <thead>
+            <tr>
+                <th>Threat</th>
+                <th>Likelihood</th>
+                <th>Overview</th>
+                <th>How to Protect</th>
+                <th>How to Respond</th>
+            </tr>
+        </thead>
+        <tbody>
+            {% for threat in threats %}
+            <tr>
+                <td>{{ threat.threat }}</td>
+                <td>{{ threat.likelihood }}</td>
+                <td>{{ threat.overview }}</td>
+                <td>{{ threat.how_to_protect }}</td>
+                <td>{{ threat.how_to_respond }}</td>
+            </tr>
+            {% endfor %}
+        </tbody>
+    </table>
+</section>
+{% endblock %} <!-- This is Jinja2 template syntax used to define a block called content and then endblock is used to define boundries of blocks in Jinja2 templates, makes content reuse and custom template inheritance and block nesting easier (Flask, 2010b) -->

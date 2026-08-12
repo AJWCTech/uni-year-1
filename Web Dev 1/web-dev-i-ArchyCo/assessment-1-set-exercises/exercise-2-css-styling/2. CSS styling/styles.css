@@ -1,0 +1,80 @@
+body {
+    margin: 0;
+    /* Setting margin to 0 */
+    padding: 0;
+    /* Setting padding to 0 */
+    background-color: #cccccc;
+    /* Setting the background colour to the same as target images using powertools */
+    font-family: Arial, Helvetica, sans-serif;
+    /* Setting font-family to the same as the target image */
+}
+
+.container {
+    margin: 20px auto;
+    /* Setting margin to 20px auto */
+    padding: 20px;
+    /* Setting padding to 20px */
+    max-width: 780px;
+    /* Setting max width to 780px */
+    border-radius: 20px 20px 0 0;
+    /* Setting border-radius to 20px, 20px, 0, 0, so the tops of the container are rounded like the target image */
+    background-color: white;
+    /* Setting background-color to white */
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    /* Setting box shadow to 0 horizontal offset, 4px verttical offset, 8px blur radius, no colour 0.1 opacity */
+}
+
+h1 {
+    color: #419511;
+    /* Setting the colour to the same as target images using powertools */
+    font-size: 68px;
+    /* Setting the font size to 68px as a rough guess to what the target image uses */
+    text-align: center;
+    /* Setting text-align to center */
+    font-weight: bold;
+    /* Setting font weight to bold so it will be bold text*/
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    /* Setting font to Impact as it is the most likely font to be the same as the target image */
+}
+
+h2 {
+    color: #419511;
+    /* Setting the colour to the same as target images using powertools */
+    font-size: 48px;
+    /* Setting the font size to 48px as a rough guess to what the target image uses */
+    text-align: center;
+    /* Setting the text-align to center to center text */
+    font-weight: bold;
+    /* Setting font weight to bold so it will be bold text*/
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    /* Setting font to Impact as it is the most likely font to be the same as the target image */
+}
+
+h3 {
+    font-size: 38px;
+    /* Setting the font size to 38px as a rough guess to what the target image uses */
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    /* Setting font to Impact as it is the most likely font to be the same as the target image */
+}
+
+p {
+    font-size: 24px;
+    /* Setting the paragraph font-size to 24px as a rough guess to what the target image uses */
+}
+
+.dyk {
+    margin: 20px auto;
+    /* Setting margin to 20px auto */
+    padding: 20px;
+    /* Setting padding to 20px */
+    max-width: 740px;
+    /* Setting max width to 740px */
+    border-radius: 20px 20px 20px 20px;
+    /* Setting border-radius to 20px, 20px, 20px, 20px, all edges of the container are rounded like the target image */
+    background-color: #419511;
+    /* Setting the background colour to the same as target images using powertools */
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    /* Setting box shadow to 0 horizontal offset, 4px verttical offset, 8px blur radius, no colour 0.1 opacity */
+    color: white;
+    /* Setting the colour of the text to white */
+}
