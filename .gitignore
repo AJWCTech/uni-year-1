@@ -1,0 +1,10 @@
+# OS / editor cruft
+Thumbs.db
+ehthumbs.db
+Desktop.ini
+.DS_Store
+*~
+~$*
+
+# Files excluded from this repo for size (see README)
+*.mp4
